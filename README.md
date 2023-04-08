@@ -24,3 +24,6 @@ The main goal of this project is to allow you to create your own portfolio of cr
 2) npm install
 3) this API has types connected with backend: https://github.com/soowson/crypto-portfolio-back.git - check in the tsconfig.paths.json file if the path to backend is correct 
 3) start the app: right-click on the package.json file => show npm scripts => start
+
+## Contact
+email: jakubsowinski94@gmail.com
