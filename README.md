@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# Crypto Portfolio Tracker 
+This project allow you to create portfolio of cryptocurriencies. Backend: https://github.com/soowson/crypto-portfolio-back.git
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General Information
+The main goal of this project is to allow you to create your own portfolio of cryptocurrencies. Once we create an account and log in, this application allows us to see the current prices of cryptocurrencies, the current score of individual transactions and the score of the entire portfolio.
 
-## Available Scripts
+## Technologies used
+- TypeScript: version 4.9
+- react: version 18.2
+- formik: version 2.2
 
-In the project directory, you can run:
+## Features
+- registration with hashed user’s password
+- authentication with passport-jwt
+- an overview of the current prices of the top 100 cryptocurrencies
+- adding executed transactions with the following information: name of cryptocurrency, price, amount, date of transaction, notes
+- list of individual transactions with current profit 
+- portfolio - a list of aggregated transactions of a particular cryptocurrency
+- editing a transaction 
+- deleting a transaction
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Setup
+1) cd into project folder
+2) npm install
+3) this API has types connected with backend: https://github.com/soowson/crypto-portfolio-back.git - check in the tsconfig.paths.json file if the path to backend is correct 
+3) start the app: right-click on the package.json file => show npm scripts => start
