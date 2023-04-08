@@ -1,0 +1,27 @@
+.registrationSuccessPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__button {
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: 0.05rem solid goldenrod;
+    color: #101010;
+}
+
+.banner__row {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 810px) {
+    .banner__row {
+        font-size: 2.5rem;
+    }
+}
+
+.login__button:hover {
+    background-color: #e7ae22;
+}

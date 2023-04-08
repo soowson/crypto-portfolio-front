@@ -1,0 +1,24 @@
+.card {
+    background-color: #101010;
+    width: 25vw;
+    height: 100%;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.05rem solid #6b6a6a;
+    border-radius: 1vh;
+    padding-bottom: 5vh;
+}
+
+@media (max-width: 1155px) {
+    .card {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 393px) {
+    .card {
+        width: 80vw;
+    }
+}

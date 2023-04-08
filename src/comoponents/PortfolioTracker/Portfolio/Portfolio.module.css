@@ -1,0 +1,155 @@
+.portfolioPage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.portfolioState {
+    margin: 6vh auto;
+    width: 40%;
+}
+
+.portfolioState__value {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.portfolioState__profit {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.portfolioState__profit__item {
+    margin: 1%;
+}
+
+.portfolioTableSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolioTable {
+    margin-top: 2vh;
+    flex-basis: 75vw;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.portfolioTable__responseActive {
+    margin-bottom: 2vh;
+}
+
+.portfolioTable__thead {
+    color: black;
+    height: 3rem;
+    background-color: goldenrod;
+}
+
+.portfolioTable__tbodyTr {
+    border-bottom: 0.1rem solid grey;
+    height: 8vh;
+}
+
+.portfolioTable__tbodyTr:hover {
+    background-color: #3c4141;
+    cursor: auto;
+}
+
+.portfolioTable__coinImage {
+    margin-left: 25%;
+    width: 90%;
+}
+
+.portfolioTable__tbodyTd__first {
+    width: 5%;
+
+}
+
+
+.coinTable__responseMsg {
+    font-size: 1.1rem;
+    margin-top: 2vh;
+    flex-basis: 70vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.portfolioTable__spinner {
+    display: flex;
+    width: 10%;
+    align-items: center;
+}
+
+@media (max-width: 830px) {
+    .portfolioTable {
+        width: 80vw;
+        font-size: 0.8rem;
+    }
+
+    .coinTable__responseMsg {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 610px) {
+    .coinTable__responseMsg {
+        font-size: 0.9rem;
+    }
+
+    .portfolioState {
+        width: 60%;
+    }
+}
+
+@media (max-width: 580px) {
+    .portfolioTable {
+        width: 90vw;
+    }
+
+    .portfolioTable__tbodyTd__fourth {
+        display: none;
+    }
+
+    .portfolioTable__theadTh__fourth {
+        display: none;
+    }
+
+    .portfolioTable__tbodyTd__first {
+        width: 8%;
+    }
+}
+
+@media (max-width: 495px) {
+    .portfolioTable__theadTh__fifth {
+        display: none;
+    }
+
+    .portfolioTable__tbodyTd__fifth {
+        display: none;
+    }
+
+    .portfolioTable__tbodyTd__first {
+        width: 10%;
+    }
+
+    .coinTable__responseMsg {
+        font-size: 0.8rem;
+        width: 90vw;
+        /*flex-wrap: wrap;*/
+        justify-content: center;
+    }
+
+    .portfolioState__value {
+        font-size: 2.5rem;
+    }
+
+    .portfolioState__profit {
+        font-size: 1.1rem;
+    }
+}

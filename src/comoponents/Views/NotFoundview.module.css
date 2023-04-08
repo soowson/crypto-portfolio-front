@@ -1,0 +1,33 @@
+.notFoundView {
+    width: 60%;
+    margin: 10vh auto;
+    color: white;
+    text-align: center;
+}
+
+.error {
+    font-size: 5rem;
+}
+
+.h2 {
+    font-size: 2rem;
+}
+
+.home__button {
+    margin-top: 3vh;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: 0.05rem solid goldenrod;
+    color: #101010;
+}
+
+.home__button:hover {
+    background-color: #e7ae22;
+}
+
+@media (max-width: 810px) {
+    .notFoundView {
+        width: 80%;
+    }
+}

@@ -1,0 +1,147 @@
+.mainSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.mainSection__searchCoin {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.mainSection__input {
+    height: 3rem;
+    width: 40vw;
+    margin: auto;
+    background-color: #030303;
+    color: white;
+    border: 0.05rem solid white;
+    border-radius: 0.5vh;
+    outline: none;
+    padding-left: 1vh;
+}
+
+.mainSection__searchCoin :hover {
+    background-color: #3c4141;
+}
+
+.coinTable {
+    margin-top: 5vh;
+    width: 75vw;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.coinTable__thead {
+    color: black;
+    height: 3rem;
+    background-color: goldenrod;
+}
+
+
+.coinTable__tbodyTr {
+    border-bottom: 0.1rem solid grey;
+    height: 8vh;
+}
+
+.coinTable__tbodyTr:hover {
+    background-color: #3c4141;
+}
+
+
+.coinTable__tbodyTrTd__first {
+    width: 5%;
+}
+
+.coinTable__tbodyTrTd__second {
+    width: 10%;
+}
+
+.coinTable__image {
+    height: 50%;
+    width: 50%;
+    padding: 3% 1% 1% 1%;
+}
+
+
+.paginationButtons {
+    margin-top: 5vh;
+    width: 100%;
+    height: 10vh;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationButtons a {
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid goldenrod;
+    color: white;
+    cursor: pointer;
+}
+
+.paginationButtons a:hover {
+    background-color: #3c4141;
+}
+
+.paginationActive a {
+    background-color: #3c4141;
+}
+
+.paginationDisabled a {
+    color: #3c4141;
+    cursor: default;
+}
+
+.paginationDisabled a:hover {
+    background-color: #181717;
+}
+
+@media (max-width: 830px) {
+    .coinTable {
+        width: 80vw;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 810px) {
+    .coinTable {
+        margin-top: 3vh;
+    }
+
+    .paginationButtons a {
+        padding: 0.6rem;
+        margin: 0.4rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .mainSection__input {
+        width: 60vw;
+    }
+
+    .paginationButtons a {
+        padding: 0.5rem;
+        margin: 0.3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .coinTable__theadTrTh__sixth {
+        display: none;
+    }
+
+    .coinTable__tbodyTrTd__sixth {
+        display: none;
+    }
+
+    .paginationButtons a {
+        padding: 0.3rem;
+        margin: 0.2rem;
+    }
+}

@@ -1,0 +1,120 @@
+.auth__title {
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 1.1rem;
+}
+
+.auth__form {
+    width: 90%;
+    margin-top: 5%;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auth__buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.registration__button {
+    width: 11rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: 0.05rem solid goldenrod;
+    color: #101010;
+}
+
+.registration__button:hover {
+    background-color: darkgoldenrod;
+}
+
+.login__button {
+    width: 9rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: 0.05rem solid goldenrod;
+    color: #101010;
+}
+
+.login__button:hover {
+    background-color: darkgoldenrod;
+}
+
+.login__linkWrapper {
+    color: #6b6a6a;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login__link {
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+}
+
+.createAccount__linkWrapper {
+    color: #6b6a6a;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.createAccount__link {
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+}
+
+.registration__responseMsg {
+    width: 90%;
+    color: #960707;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.login__responseMsg {
+    color: #960707;
+    margin-top: 3%
+}
+
+.button__disabled {
+    cursor: not-allowed;
+}
+
+.button__loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,31 @@
+.banner {
+    width: 60%;
+    margin: 10vh auto;
+    color: white;
+    text-align: center;
+}
+
+
+.banner_row {
+    font-size: 1.5rem;
+}
+
+.banner__span {
+    color: goldenrod;
+}
+
+@media (max-width: 810px) {
+    .banner {
+        margin: 5vh auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        width: 80%;
+    }
+
+    .banner_row {
+        font-size: 1.3rem;
+    }
+}

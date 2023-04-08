@@ -1,0 +1,148 @@
+.header {
+    box-sizing: border-box;
+    top: 0;
+    background-color: #3c4141;
+    height: 3.5rem;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    /*flex-basis: 100%;*/
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+}
+
+.header__mainWrapper {
+    flex-basis: 5%;
+
+}
+
+.header__mainWrapper__navigationMobileActive {
+    margin-top: 1rem;
+}
+
+.header__main {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.header__main:hover {
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.navigation {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__portfolioTracker {
+    text-decoration: none;
+    color: white;
+    border: 0.05rem solid #6b6a6a;
+    padding: 0.4rem;
+    background-color: #6b6a6a;
+    border-radius: 1rem;
+    margin-right: 5%;
+}
+
+.navigation__portfolioTracker:hover {
+    color: black;
+    background-color: goldenrod;
+    border: 0.05rem solid goldenrod;
+
+}
+
+.navigation__login {
+    margin-left: 50%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navigation__login:hover {
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.navigation__registration {
+    text-decoration: none;
+    color: black;
+    border: 0.05rem solid goldenrod;
+    padding: 0.4rem;
+    background-color: goldenrod;
+    border-radius: 1rem;
+
+}
+
+.navigation__registration:hover {
+    background-color: #e7ae22;
+}
+
+.header__toggleButton {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.header__toggleButton__bar {
+    height: 0.1rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 920px) {
+    .header__toggleButton {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        min-height: 3.5rem;
+    }
+
+    .header__mainWrapper {
+        margin-left: 2rem;
+
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .navigationMobileActive {
+        display: flex;
+    }
+
+
+    .navigation__portfolioTracker {
+        color: white;
+        margin: 0 auto;
+    }
+
+
+    .navigation__login {
+        margin: 0.3rem auto;
+        color: white;
+    }
+
+    .navigation__registration {
+        margin: 0.3rem auto;
+    }
+
+}

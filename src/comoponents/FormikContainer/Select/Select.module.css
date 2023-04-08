@@ -1,0 +1,25 @@
+.form__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form__details__title {
+    margin-bottom: 2.5%;
+}
+
+.form__details__select {
+    width: 45%;
+    height: 2.5rem;
+    padding-left: 1vh;
+    border: 0.05rem solid #6b6a6a;
+    border-radius: 1vh;
+    background-color: #101010;
+    color: white;
+}
+
+input[type="select"]::-webkit-calendar-picker-indicator{
+     filter: invert(42%) sepia(2%) saturate(8%) hue-rotate(319deg) brightness(96%) contrast(93%);
+     margin-right: 5%;
+ }

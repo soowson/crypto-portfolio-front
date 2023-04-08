@@ -1,0 +1,15 @@
+.banner__row {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 810px) {
+    .banner__row {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner__row {
+        font-size: 2rem;
+    }
+}
