@@ -21,6 +21,7 @@ https://user-images.githubusercontent.com/108904000/231561509-a6d8362c-7a3d-4fdd
 - portfolio - a list of aggregated transactions of a particular cryptocurrency
 - editing a transaction 
 - deleting a transaction
+- compatible with smartphones
 
 ## Setup
 1) cd into project folder
