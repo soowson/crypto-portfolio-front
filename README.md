@@ -4,9 +4,7 @@ This project allow you to create portfolio of cryptocurriencies. Backend: https:
 ## General Information
 The main goal of this project is to allow you to create your own portfolio of cryptocurrencies. Once we create an account and log in, this application allows us to see the current prices of cryptocurrencies, the current score of individual transactions and the score of the entire portfolio.
 
-
-
-https://user-images.githubusercontent.com/108904000/230739849-9c5e1c45-a3d7-4ede-b9dc-7c90df8869eb.mp4
+https://user-images.githubusercontent.com/108904000/231561509-a6d8362c-7a3d-4fdd-b8f2-1655718df293.mp4
 
 
 ## Technologies used
