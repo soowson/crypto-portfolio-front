@@ -23,6 +23,14 @@ https://user-images.githubusercontent.com/108904000/231561509-a6d8362c-7a3d-4fdd
 - deleting a transaction
 - compatible with smartphones
 
+## Future application development
+- addition of history of completed transactions
+- addition of portfolio status in the form of a chart
+- addition of description and historical charts of cryptocurrencies
+
+## What doesn't work
+- UnauthorizedException is deliver as Internal Server Error (I have not encountered this problem in Nest v7)
+
 ## Setup
 1) cd into project folder
 2) npm install
